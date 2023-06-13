@@ -1,0 +1,96 @@
+//MOBILE & TABLET
+
+h1 {
+  font-size: var(--fs-144);
+  font-family: var(--ff-heading);
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--fs-72);
+  font-family: var(--ff-heading);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: var(--fs-36);
+  font-family: var(--ff-heading);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: var(--fs-22);
+  font-family: var(--ff-para);
+  line-height: 1;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: var(--fs-18);
+  font-family: var(--ff-para);
+  line-height: 1;
+}
+
+p {
+  font-size: var(--fs-14);
+  font-family: var(--ff-para);
+  line-height: 1.1;
+}
+
+.sub-heading {
+  font-size: var(--fs-12);
+  font-family: var(--ff-para);
+  line-height: 1;
+}
+
+//DESKTOP
+@media (min-width: $layout-breakpoint-desktop) {
+  h1 {
+    font-size: var(--fs-350);
+    font-family: var(--ff-heading);
+    line-height: 0.8;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: var(--fs-144);
+    font-family: var(--ff-heading);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: var(--fs-72);
+    font-family: var(--ff-heading);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: var(--fs-36);
+    font-family: var(--ff-para);
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: var(--fs-22);
+    font-family: var(--ff-para);
+    line-height: 1;
+  }
+
+  p {
+    font-size: var(--fs-14);
+    font-family: var(--ff-para);
+    line-height: 1.1;
+  }
+
+  .sub-heading {
+    font-size: var(--fs-12);
+    font-family: var(--ff-para);
+    line-height: 1;
+  }
+}
