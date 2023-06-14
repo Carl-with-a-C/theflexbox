@@ -1,34 +1,28 @@
 //MOBILE & TABLET
 
 h1 {
-  font-size: var(--fs-144);
+  font-size: var(--fs-72);
   font-family: var(--ff-heading);
   line-height: 0.8;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: var(--fs-72);
-  font-family: var(--ff-heading);
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-h3 {
   font-size: var(--fs-36);
   font-family: var(--ff-heading);
   line-height: 1;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-h4 {
+h3 {
   font-size: var(--fs-22);
   font-family: var(--ff-para);
   line-height: 1;
-  font-weight: 500;
 }
 
-h5 {
+h4 {
   font-size: var(--fs-18);
   font-family: var(--ff-para);
   line-height: 1;
@@ -37,7 +31,7 @@ h5 {
 p {
   font-size: var(--fs-14);
   font-family: var(--ff-para);
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .sub-heading {
@@ -49,34 +43,28 @@ p {
 //DESKTOP
 @media (min-width: $layout-breakpoint-desktop) {
   h1 {
-    font-size: var(--fs-350);
+    font-size: var(--fs-144);
     font-family: var(--ff-heading);
     line-height: 0.8;
     text-transform: uppercase;
+    font-weight: bold;
   }
 
   h2 {
-    font-size: var(--fs-144);
-    font-family: var(--ff-heading);
-    line-height: 1;
-    text-transform: uppercase;
-  }
-
-  h3 {
     font-size: var(--fs-72);
     font-family: var(--ff-heading);
     line-height: 1;
     text-transform: uppercase;
+    font-weight: bold;
   }
 
-  h4 {
+  h3 {
     font-size: var(--fs-36);
     font-family: var(--ff-para);
     line-height: 1;
-    font-weight: 500;
   }
 
-  h5 {
+  h4 {
     font-size: var(--fs-22);
     font-family: var(--ff-para);
     line-height: 1;
@@ -85,7 +73,7 @@ p {
   p {
     font-size: var(--fs-14);
     font-family: var(--ff-para);
-    line-height: 1.1;
+    line-height: 1.5;
   }
 
   .sub-heading {
