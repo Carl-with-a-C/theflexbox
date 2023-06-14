@@ -1,6 +1,28 @@
 // Breakpoints
 
-$layout-breakpoint-desktop-lrg: 1200px;
+$layout-breakpoint-desktop-xl: 1920px;
+$layout-breakpoint-desktop-lrg: 1280px;
 $layout-breakpoint-desktop: 1024px;
 $layout-breakpoint-tablet: 768px;
 $layout-breakpoint-mobile: 480px;
+
+// spacing
+
+:root {
+  --spacing-unit: 10px;
+
+  --margin: calc(0.2 * var(--spacing-unit));
+  --margin-sm: var(--margin);
+  --margin-md: calc(2 * var(--margin));
+  --margin-lg: calc(4 * var(--margin));
+  --margin-xl: calc(8 * var(--margin));
+
+  --padding: calc(0.2 * var(--spacing-unit));
+  --padding-sm: var(--padding);
+  --padding-md: calc(2 * var(--padding));
+  --padding-lg: calc(4 * var(--padding));
+  --padding-xl: calc(8 * var(--padding));
+  @media (max-width: $layout-breakpoint-desktop) {
+    --spacing-unit: 5px;
+  }
+}
